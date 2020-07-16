@@ -6,11 +6,11 @@
 
 :root {
   --title-color: #212121;
-  --primary-color: #34cd79;
-  --red-primary: #FF5A5Fbb;
-  --blue-primary: #3423CA;
+  --primary-color: #adff2f;
+  --blue-secondary: #384480b1;
+  --blue-primary: #0D9FF2;
   --dark-primary: #212121;
-  --card-color: #ffffff;
+  --card-color: #fffeef;
   --icon-color: #333;
   --img-size: 260px;
 }
@@ -41,6 +41,10 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   text-decoration: none;
+}
+
+span {
+  color: #adff2f;
 }
 
 img {
