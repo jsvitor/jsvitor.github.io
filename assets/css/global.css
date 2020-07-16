@@ -1,0 +1,53 @@
+/*
+
+  GLOBAL CONFIGURATIONS
+
+*/
+
+:root {
+  --title-color: #212121;
+  --primary-color: #adff2f;
+  --blue-secondary: #384480b1;
+  --blue-primary: #0D9FF2;
+  --dark-primary: #212121;
+  --card-color: #fffeef;
+  --icon-color: #333;
+  --img-size: 260px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /*  the fill stay inside the box */
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Lato', sans-serif;
+  /*  */
+}
+
+body {
+  background: #f0f0f5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-size: 36px;
+  color: var(--title-color);
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  color: #adff2f;
+}
+
+img {
+  width: 200px;
+  height: 400px;
+}

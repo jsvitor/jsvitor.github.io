@@ -1,48 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@500&display=swap');
-
-:root {
-  --title-color: #212121;
-  --primary-color: #34cd79;
-  --red-primary: #FF5A5F;
-  --dark-primary: #212121;
-  --card-color: #ffffff;
-  --icon-color: #333;
-  --img-size: 260px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  /*  the fill stay inside the box */
-  box-sizing: border-box;
-}
-
-html {
-  font-family: 'Lato', sans-serif;
-  /*  */
-}
-
-body {
-  background: #f0f0f5;
-  -webkit-font-smoothing: antialiased;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato', sans-serif;
-  font-size: 36px;
-  color: var(--title-color);
-  margin-bottom: 15px;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  width: 200px;
-  height: 400px;
-}
-
+@import url('./global.css');
+@import url('./fab.css');
 #root {
   width: 100%;
   height: 100vh;
@@ -56,13 +14,19 @@ img {
 }
 
 .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 360px;
   margin: 30px auto;
+
+  position: relative;
+  top: 40px;
+
+
   background-color: var(--card-color);
   border-radius: 8px;
   padding: 20px 15px;
-
-  position: relative;
 }
 
 
@@ -110,26 +74,22 @@ img {
   color: var(--icon-color);
 }
 
-/* laptop device responsiveness setting */
-@media (min-width: 900px) {
-  #root {
-    width: 100%;
-    height: 100vh;
+@import url('./responsiveness.css');
 
-    background-image: url("../images/banner@jsvitor.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-
-  .content {
-    width: 400px;
-    margin: 30px auto;
-    background-color: var(--card-color);
-    border-radius: 8px;
-    padding: 20px 15px;
-
-    position: relative;
-  }
+/* bar animation */
+#container {
+  width: 200px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: #33333333;
+  position: relative;
 }
+
+#box {
+  width: 50px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: greenyellow;
+  position: absolute;
+}
+
