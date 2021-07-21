@@ -1,22 +1,47 @@
 /* laptop device responsiveness setting */
-@media (min-width: 900px) {
-  #root {
-    width: 100%;
-    height: 100vh;
+@media (max-width: 750px) {
+  #main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-top: 0.3px solid #e1e1e1;
+  }
 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+  #about-me-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
   }
 
   .content {
-    width: 400px;
+    flex-grow: 1;
+    background-color: #fff;
+    border-radius: 16px;
+    margin-right: 20px;
+
+    width: 100%;
     margin: 30px auto;
     background-color: var(--card-color);
     border-radius: 8px;
     padding: 20px 15px;
+  }
 
+
+  #projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    width: 90vw;
+    flex-grow: 3;
+    height: 87vh;
+    background-color: #181818;
+    border-radius: 16px;
     position: relative;
   }
 }
