@@ -28,7 +28,7 @@ html {
 }
 
 body {
-  background: #f0f0f5;
+  background: linear-gradient(180deg, #51F0E7 0%, rgba(0, 130, 204, 0.6) 100%);
   -webkit-font-smoothing: antialiased;
 }
 
