@@ -9,7 +9,7 @@
   --primary-color: #adff2f;
   --blue-secondary: #384480b1;
   --blue-primary: #0D9FF2;
-  --dark-primary: #212121;
+  --dark-primary: #0e1832;
   --card-color: #fffeef;
   --icon-color: #333;
   --img-size: 260px;
@@ -28,7 +28,7 @@ html {
 }
 
 body {
-  background: linear-gradient(180deg, #51F0E7 0%, rgba(0, 130, 204, 0.6) 100%);
+  background: linear-gradient(180deg, #294b6a 0%, rgba(0, 130, 204, 0.6) 100%);
   -webkit-font-smoothing: antialiased;
 }
 
