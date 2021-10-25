@@ -10,8 +10,9 @@
   --blue-secondary: #384480b1;
   --blue-primary: #0D9FF2;
   --dark-primary: #0e1832;
-  --card-color: #fffeef;
+  --card-color: #edf4fa;
   --icon-color: #333;
+  --color-border-default: #2d587b;
   --img-size: 200px;
 }
 
@@ -28,16 +29,23 @@ html {
 }
 
 body {
-  background: linear-gradient(180deg, #294b6a 0%, rgba(0, 130, 204, 0.6) 100%);
+  /* background: linear-gradient(180deg, #294b6a 0%, rgba(0, 130, 204, 0.6) 100%); */
+  background: #294b6a;
   -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
-  font-size: 36px;
+  /* font-size: 36px; */
   color: var(--title-color);
   margin-bottom: 15px;
 }
+
+h1 { font-size: 36px }
+
+h3 { font-size: 30px }
+
+h6 { font-size: 25px }
 
 a {
   text-decoration: none;
