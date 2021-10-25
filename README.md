@@ -21,4 +21,8 @@
 #4cc2fc	(76,194,252)
 
 
+https://www.color-hex.com/color-palette/20457
+
+https://www.colourlovers.com/palette/1133588/Minty_mosaic
+
 -->
