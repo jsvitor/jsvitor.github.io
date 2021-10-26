@@ -43,7 +43,10 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 { font-size: 36px }
 
-h3 { font-size: 30px }
+h3 {
+  font-size: 30px;
+  color: #0D9FF2;
+}
 
 h6 { font-size: 25px }
 
