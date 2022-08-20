@@ -16,6 +16,8 @@
   }
 
   .content {
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
     background-color: #e2f1fb;
     border-radius: 16px;
