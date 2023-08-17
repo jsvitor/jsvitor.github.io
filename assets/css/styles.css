@@ -95,7 +95,7 @@
   width: 50px;
   height: 4px;
   border-radius: 3px;
-  background-color: greenyellow;
+  background-color: var(--primary-color);
   position: absolute;
 }
 
